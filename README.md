@@ -12,7 +12,7 @@ We collect paragraphs with diverse negation cues, and have crowdworkers ask ques
 
 :pushpin: reversing the negation
 
-CondaQA features 14,182 question-answer pairs with over 200 unique negation cues. CondaQA is also available as a huggingface dataset.
+CondaQA features 14,182 question-answer pairs with over 200 unique negation cues. CondaQA is also available as a [huggingface dataset](https://huggingface.co/datasets/lasha-nlp/CONDAQA).
 
 If you use this dataset, we would appreciate you citing our work:
     
