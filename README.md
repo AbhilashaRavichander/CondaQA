@@ -12,7 +12,7 @@ We collect paragraphs with diverse negation cues, and have crowdworkers ask ques
 
 :pushpin: reversing the negation
 
-CondaQA features 14,182 question-answer pairs with over 200 unique negation cues. CondaQA is also available as a [huggingface dataset](https://huggingface.co/datasets/lasha-nlp/CONDAQA).
+**CondaQA** features 14,182 question-answer pairs with over 200 unique negation cues. **CondaQA** is also available as a [huggingface dataset](https://huggingface.co/datasets/lasha-nlp/CONDAQA).
 
 If you use this dataset, we would appreciate you citing our work:
     
@@ -93,7 +93,7 @@ Our goal is to evaluate models on their ability to process the contextual implic
 
 ### Source Data
 
-To construct CondaQA, we first collected passages from a July 2021 version of English Wikipedia that contained negation cues, including single- and multi-word negation phrases, as well as affixal negation. We use negation cues from [Morante et al. (2011)](https://aclanthology.org/L12-1077/) and [van Son et al. (2016)](https://aclanthology.org/W16-5007/) as a starting point which we extend.
+To construct **CondaQA**, we first collected passages from a July 2021 version of English Wikipedia that contained negation cues, including single- and multi-word negation phrases, as well as affixal negation. We use negation cues from [Morante et al. (2011)](https://aclanthology.org/L12-1077/) and [van Son et al. (2016)](https://aclanthology.org/W16-5007/) as a starting point which we extend.
 
 #### Initial Data Collection and Normalization
 
