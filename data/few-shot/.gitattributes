@@ -1,0 +1,13 @@
+unifiedqa_formatted_data/train_splits filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/test_splits filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/train_splits/sampling_c_shots_9 filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/train_splits/sampling_c_shots_9/conda_fewshot_train_5.json filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/train_splits/sampling_c_shots_9/conda_fewshot_train_1.json filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/train_splits/sampling_c_shots_9/conda_fewshot_train_2.json filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/train_splits/sampling_c_shots_9/conda_fewshot_train_3.json filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/train_splits/sampling_c_shots_9/conda_fewshot_train_4.json filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/test_splits/conda_fewshot_test_4.json filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/test_splits/conda_fewshot_test_5.json filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/test_splits/conda_fewshot_test_1.json filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/test_splits/conda_fewshot_test_2.json filter=lfs diff=lfs merge=lfs -text
+unifiedqa_formatted_data/test_splits/conda_fewshot_test_3.json filter=lfs diff=lfs merge=lfs -text
