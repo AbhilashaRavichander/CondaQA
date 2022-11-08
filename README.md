@@ -123,7 +123,7 @@ We expect that such information has already been redacted from Wikipedia.
 
 ### Dataset Curators
 
-From the paper: "In order to estimate human performance, and to construct a high-quality evaluation with fewer ambiguous examples, we have five verifiers provide answers for each question in the development and test sets." The first author has been manually checking the annotations throughout the entire data collection process that took ~7 months.
+From the paper: "In order to estimate human performance, and to construct a high-quality evaluation with fewer ambiguous examples, we have five verifiers provide answers for each question in the development and test sets." The first author has been manually spot checking the annotations throughout the entire data collection process that took ~7 months.
 
 ### Licensing Information
 * [Dataset License](LICENSE) 
