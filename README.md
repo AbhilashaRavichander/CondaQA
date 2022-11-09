@@ -34,32 +34,34 @@ English
 Here's an example instance:
 
 ```
-{"QuestionID": "q10", 
+{
+"sentence1": "Drug possession is the crime of having one or more illegal drugs in one's possession, either for personal use, distribution, sale or otherwise. Illegal drugs fall into different categories and sentences vary depending on the amount, type of drug, circumstances, and jurisdiction. In the U.S., the penalty for illegal drug possession and sale can vary from a small fine to a prison sentence. In some states, marijuana possession is considered to be a petty offense, with the penalty being comparable to that of a speeding violation. In some municipalities, possessing a small quantity of marijuana in one's own home is not punishable at all. Generally, however, drug possession is an arrestable offense, although first-time offenders rarely serve jail time. Federal law makes even possession of \"soft drugs\", such as cannabis, illegal, though some local governments have laws contradicting federal laws.",
+"sentence2": "If a drug addict is caught with marijuana, is there a chance he will be jailed?", 
+"label": "YES", 
+"QuestionID": "q10", 
 "original cue": "rarely", 
 "PassageEditID": 0, 
 "original passage": "Drug possession is the crime of having one or more illegal drugs in one's possession, either for personal use, distribution, sale or otherwise. Illegal drugs fall into different categories and sentences vary depending on the amount, type of drug, circumstances, and jurisdiction. In the U.S., the penalty for illegal drug possession and sale can vary from a small fine to a prison sentence. In some states, marijuana possession is considered to be a petty offense, with the penalty being comparable to that of a speeding violation. In some municipalities, possessing a small quantity of marijuana in one's own home is not punishable at all. Generally, however, drug possession is an arrestable offense, although first-time offenders rarely serve jail time. Federal law makes even possession of \"soft drugs\", such as cannabis, illegal, though some local governments have laws contradicting federal laws.", 
 "SampleID": 5294, 
-"label": "YES", 
 "original sentence": "Generally, however, drug possession is an arrestable offense, although first-time offenders rarely serve jail time.", 
-"sentence2": "If a drug addict is caught with marijuana, is there a chance he will be jailed?", 
 "PassageID": 444, 
-"sentence1": "Drug possession is the crime of having one or more illegal drugs in one's possession, either for personal use, distribution, sale or otherwise. Illegal drugs fall into different categories and sentences vary depending on the amount, type of drug, circumstances, and jurisdiction. In the U.S., the penalty for illegal drug possession and sale can vary from a small fine to a prison sentence. In some states, marijuana possession is considered to be a petty offense, with the penalty being comparable to that of a speeding violation. In some municipalities, possessing a small quantity of marijuana in one's own home is not punishable at all. Generally, however, drug possession is an arrestable offense, although first-time offenders rarely serve jail time. Federal law makes even possession of \"soft drugs\", such as cannabis, illegal, though some local governments have laws contradicting federal laws."
 }
 
 ```
 
 ### Data Fields
 
+* `sentence1`: passage 
+* `sentence2`: question
+* `label`: answer 
 * `QuestionID`: unique ID for this question (might be asked for multiple passages)
 * `original cue`: Negation cue that was used to select this passage from Wikipedia
 * `PassageEditID`: 0 = original passage, 1 = paraphrase-edit passage, 2 = scope-edit passage, 3 = affirmative-edit passage
 * `original passage`: Original Wikipedia passage the passage is based on (note that the passage might either be the original Wikipedia passage itself, or an edit based on it)
 * `SampleID`: unique ID for this passage-question pair
-* `label`: answer 
 * `original sentence`: Sentence that contains the negated statement
-* `sentence2`: question
 * `PassageID`: unique ID for the Wikipedia passage
-* `sentence1`: passage 
+
 
 ## Splits
 
